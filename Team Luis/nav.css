@@ -7,12 +7,7 @@
     cursor: pointer;
 }
 
-.button1 {
-    position: relative;
-    display: inline-block;
-}
-
-.button2 {
+.button1, .button2{
     position: relative;
     display: inline-block;
 }
