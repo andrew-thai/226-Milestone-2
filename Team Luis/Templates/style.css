@@ -128,6 +128,28 @@ body{
   padding: 20%, 20%
 }
 
+.calendertable {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #2B2E97;
+}
+
+tr:nth-child(odd) {
+    background-color: #1F206B;
+}
+
 /* @media to make the site
 responsive  */
 
