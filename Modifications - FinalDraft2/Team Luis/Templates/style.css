@@ -1,0 +1,199 @@
+/* CSS for the Navigation */
+.footer {
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.title1{
+  margin-left: 50px;
+}
+
+.paragraphtxt{
+  margin-left: 30px;
+}
+
+.dropbtn {
+    background-color: #81BEF7;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button1, .button2{
+    position: relative;
+    display: inline-block;
+}
+
+.training {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.training button {
+    background-color: #81BEF7;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.training button:hover {background-color: #808080}
+
+.button1:hover .training{
+    display: block;
+}
+
+.button1:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.event {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.event button {
+    background-color: #81BEF7;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.event button:hover {background-color: #808080}
+
+.button2:hover .event {
+    display: block;
+}
+
+.button2:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* CSS for the cards on the
+Training and Courses page. */
+.CardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 516px);
+  justify-items: center;
+  justify-content: space-around;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-gap: 5px 5px;
+}
+
+.Card {
+  width: 500px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.4s;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+  border-radius: 15px;
+  background: white;
+  overflow: hidden;
+  padding: 2px 16px;
+}
+
+.Card h2{
+  font-size: 30px;
+}
+
+.Card h3{
+  font-size: 26.2px;
+}
+
+.Actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Actions button{
+  align-self: end;
+  border-style: ridge;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background: #314652;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+  font-size: 16px;
+}
+
+.Actions button:hover{
+  background: #1b2933;
+}
+
+/* CSS for the other Body
+Classes */
+body{
+  margin: 0;
+  padding: 16px 8px;
+  font-family: "Montserrat", sans-serif;
+  background: #f1f1f1;
+}
+
+.p {
+  padding: 20%, 20%
+}
+
+.calendertable {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #2B2E97;
+}
+
+tr:nth-child(odd) {
+    background-color: #1F206B;
+}
+
+/* @media to make the site
+responsive  */
+@media only screen and (max-width: 1615px) {
+  .CardContainer {
+    grid-template-columns: repeat(2, 516px);
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .CardContainer {
+    grid-template-columns: repeat(1, 516px);
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .CardContainer {
+    justify-content: space-around;
+  }
+  .Card {
+    width: auto;
+
+  }
+}
