@@ -13,13 +13,13 @@ h1 {
 .margins {
   margin-left:auto;
   margin-right:auto;
-  width:800px;
+  width:1080px;
 }
 
 .paragraphtxt {
   margin-left:auto;
   margin-right:auto;
-  width:800px;
+  width:1080px;
 }
 
 /* CSS for the Navigation */
@@ -101,8 +101,6 @@ Training and Courses page. */
   background: #1b2933;
 }
 
-<<<<<<< HEAD
-=======
 /* CSS for the other Body
 Classes */
 .img {
@@ -124,7 +122,6 @@ body{
 .bold {
   font-weight: bold;
 }
->>>>>>> 576db45cdbad0ee69fdfcfb8732aa116d0d50afc
 
 /*CSS for the table*/
 
