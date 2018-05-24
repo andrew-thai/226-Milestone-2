@@ -19,74 +19,82 @@
 }
 
 /* CSS for the Navigation */
+.NavContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 100%;
+  background: #192551;
+}
+
 .dropbtn {
-    background-color: #77BB61;
-    color: #0A0A0A;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  background-color: #77BB61;
+  color: #0A0A0A;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
 }
 
 .button1, .button2{
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .training {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .training button {
-    background-color: #81BEF7;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  background-color: #81BEF7;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
 .training button:hover {background-color: #808080}
 
 .button1:hover .training{
-    display: block;
+  display: block;
 }
 
 .button1:hover .dropbtn {
-    background-color: #3e8e41;
+  background-color: #3e8e41;
 }
 
 .event {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .event button {
-    background-color: #81BEF7;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  background-color: #81BEF7;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
 .event button:hover {background-color: #808080}
 
 .button2:hover .event {
-    display: block;
+  display: block;
 }
 
 .button2:hover .dropbtn {
-    background-color: #3e8e41;
+  background-color: #3e8e41;
 }
 
 /* CSS for the cards on the
@@ -111,7 +119,7 @@ Training and Courses page. */
   border-radius: 15px;
   background: #192551;
   overflow: hidden;
-  padding: 2px 16px;
+  padding: 16px 16px;
   color: #BABDC9;
 }
 
@@ -222,6 +230,7 @@ responsive  */
 @media only screen and (max-width: 560px) {
   .CardContainer {
     justify-content: space-around;
+    grid-template-columns: auto;
   }
   .Card {
     width: auto;
