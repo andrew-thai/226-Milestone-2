@@ -151,27 +151,50 @@ body{
   padding: 20%, 20%
 }
 
-.calendertable {
-    color: #ffffff;
+/*CSS for the table*/
+
+.calendartable {
+    color: #0A0A0A;
     font-size: 30px;
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
+caption {
+  font-size: 72px;
+  font-family: arial, sans-serif;
+  color: black;
+}
+
 td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
+    border: 1px solid #0A0A0A;
     padding: 4px;
 }
 
 tr:nth-child(even) {
-    background-color: #2B2E97;
+    background-color: #DDDDDD;
+    text-align: center;
 }
 
 tr:nth-child(odd) {
-    background-color: #1F206B;
+    background-color: #F0F0F0;
+    text-align: center;
 }
+
+th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #77BB61;
+color: #0A0A0A;
+}
+
+tr:hover {
+  background-color: #444444;
+  color: #F0F0F0
+}
+
 
 /* @media to make the site
 responsive  */
