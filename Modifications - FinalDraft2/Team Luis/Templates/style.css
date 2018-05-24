@@ -1,9 +1,25 @@
-.title1{
-  margin-left: 50px;
+h1 {
+  text-align: center;
 }
 
-.paragraphtxt{
-  margin-left: 30px;
+/*CSS for margins on desktop pages*/
+
+.form {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.margins {
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
+}
+
+.paragraphtxt {
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
 }
 
 /* CSS for the Navigation */
@@ -85,19 +101,6 @@ Training and Courses page. */
   background: #1b2933;
 }
 
-/* CSS for the other Body
-Classes */
-body{
-  height: 100%;
-  margin: 0;
-  padding: 16px 8px;
-  font-family: "Montserrat", sans-serif;''
-  background: #F0F0F0;
-}
-
-.p {
-  padding: 20%, 20%
-}
 
 /*CSS for the table*/
 
@@ -160,16 +163,28 @@ tr:hover {
 
 }
 
-/*CSS for the form*/
-
-.form {
-  padding top: 5px;
-  padding bottom: 5px;
-  font-size: 20px;
-  margin-left:auto;
-  margin-right:auto;
-  width:800px;
+/* CSS for the other Body
+Classes */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 16px 8px;
+  font-family: "Montserrat", sans-serif;''
+  background: #F0F0F0;
 }
+
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.spacing {
+  padding-top: 5px;
+  padding-top: 5px;
+
 
 /* @media to make the site
 responsive  */
