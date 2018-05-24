@@ -87,6 +87,11 @@ Training and Courses page. */
 
 /* CSS for the other Body
 Classes */
+.img {
+  width: 80%;
+  padding-bottom: 6px
+}
+
 body{
   height: 100%;
   margin: 0;
@@ -96,6 +101,10 @@ body{
 
 .p {
   padding: 16px 8px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /*CSS for the table*/
