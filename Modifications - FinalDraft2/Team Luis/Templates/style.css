@@ -90,13 +90,12 @@ Classes */
 body{
   height: 100%;
   margin: 0;
-  padding: 16px 8px;
   font-family: "Montserrat", sans-serif;''
   background: #F0F0F0;
 }
 
 .p {
-  padding: 20%, 20%
+  padding: 16px 8px;
 }
 
 /*CSS for the table*/
@@ -154,8 +153,8 @@ tr:hover {
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #0A0A0A;
-  color:#F0F0F0;
+  background-color: #192551;
+  color:#BABDC9;
   text-align: center;
 }
 
@@ -177,12 +176,18 @@ responsive  */
     grid-template-columns: repeat(2, 516px);
     justify-content: space-around;
   }
+  .NavContainer {
+    grid-template-columns: repeat(12, auto);
+  }
 }
 
 @media only screen and (max-width: 1100px) {
   .CardContainer {
     grid-template-columns: repeat(1, 516px);
     justify-content: space-around;
+  }
+  .NavContainer {
+    grid-template-columns: repeat(6, auto);
   }
 }
 
