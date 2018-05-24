@@ -1,4 +1,3 @@
-
 .title1{
   margin-left: 50px;
 }
@@ -207,6 +206,17 @@ tr:hover {
   color:#F0F0F0;
   text-align: center;
 
+}
+
+/*CSS for the form*/
+
+.form {
+  padding top: 5px;
+  padding bottom: 5px;
+  font-size: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
 }
 
 /* @media to make the site
