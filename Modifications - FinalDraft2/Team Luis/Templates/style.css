@@ -101,6 +101,30 @@ Training and Courses page. */
   background: #1b2933;
 }
 
+<<<<<<< HEAD
+=======
+/* CSS for the other Body
+Classes */
+.img {
+  width: 80%;
+  padding-bottom: 6px
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;''
+  background: #F0F0F0;
+}
+
+.p {
+  padding: 16px 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+>>>>>>> 576db45cdbad0ee69fdfcfb8732aa116d0d50afc
 
 /*CSS for the table*/
 
@@ -157,10 +181,9 @@ tr:hover {
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #0A0A0A;
-  color:#F0F0F0;
+  background-color: #192551;
+  color:#BABDC9;
   text-align: center;
-
 }
 
 /* CSS for the other Body
@@ -193,12 +216,18 @@ responsive  */
     grid-template-columns: repeat(2, 516px);
     justify-content: space-around;
   }
+  .NavContainer {
+    grid-template-columns: repeat(12, auto);
+  }
 }
 
 @media only screen and (max-width: 1100px) {
   .CardContainer {
     grid-template-columns: repeat(1, 516px);
     justify-content: space-around;
+  }
+  .NavContainer {
+    grid-template-columns: repeat(6, auto);
   }
 }
 
