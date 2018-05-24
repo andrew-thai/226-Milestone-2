@@ -13,7 +13,7 @@ h1 {
 .margins {
   margin-left:auto;
   margin-right:auto;
-  width:1080px;
+  width:100%;
 }
 
 .paragraphtxt {
@@ -23,6 +23,12 @@ h1 {
 }
 
 /* CSS for the Navigation */
+.Header {
+  width: 100%;
+  margin: 0;
+  background: #192551;
+}
+
 .NavContainer {
   display: grid;
   grid-template-columns: repeat(20, auto);
@@ -101,28 +107,6 @@ Training and Courses page. */
   background: #1b2933;
 }
 
-/* CSS for the other Body
-Classes */
-.img {
-  width: 80%;
-  padding-bottom: 6px
-}
-
-body{
-  height: 100%;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;''
-  background: #F0F0F0;
-}
-
-.p {
-  padding: 16px 8px;
-}
-
-.bold {
-  font-weight: bold;
-}
-
 /*CSS for the table*/
 
 .calendartable {
@@ -185,26 +169,29 @@ tr:hover {
 
 /* CSS for the other Body
 Classes */
-body {
+.img {
+  width: 80%;
+  padding-bottom: 6px
+}
+
+body{
   height: 100%;
-  margin: 0;
-  padding: 16px 8px;
   font-family: "Montserrat", sans-serif;''
   background: #F0F0F0;
 }
 
+.p {
+  padding: 16px 8px;
 }
 
 .bold {
   font-weight: bold;
-  font-size: 16px;
-  padding-bottom: 10px;
 }
 
 .spacing {
   padding-top: 5px;
   padding-top: 5px;
-
+}
 
 /* @media to make the site
 responsive  */
